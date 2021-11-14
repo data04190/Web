@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>겜블링 게임</title>
+	<link type = "text/css" rel = "stylesheet" href ="Gambling.css">
+	<script src = "Gambling.js"></script>
+</head>
+<body>
+	<h3>겜블링 게임</h3>
+	<p>각 숫자를 클릭하면 0에서 2사이의 난수로 바뀝니다.
+		모두 같은 수가 나오면 승리합니다.</p>
+	<hr>
+	<table>
+		<tr>
+			<td id = "first" onclick = "gen(event)">0</td>
+			<td id = "second" onclick = "gen(event)">0</td>
+			<td id = "third" onclick = "gen(event)">0</td>
+		</tr>
+	</table>
+	<div id = "msg" onclick = "reset()"></div>
+</body>
+</html>
