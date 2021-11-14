@@ -1,0 +1,13 @@
+table{
+	border : 1px solid violet;
+	border-collapse: collapse;
+}
+td {
+	width :50px;
+	height: 50px;
+	padding :0px;
+	font :italic 50px consolas, sans-serif;
+	color :blue;
+	text-align :center;
+	background: linen;
+}
